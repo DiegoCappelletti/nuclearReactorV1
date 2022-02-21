@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "cppbuild",
+        "label": "Reattore nuclieare V1",
+        "command": "C:\\Programmazione\\mingw64\\bin\\g++.exe",
+        "args": [
+          "-g",
+          "${fileDirname}\\*.cpp",
+          "-o",
+          "${fileDirname}\\reattore.exe"
+        ],
+        "options": {
+          "cwd": "${fileDirname}"
+        },
+        "problemMatcher": ["$gcc"],
+        "group": "build",
+        "detail": "compilatore: C:\\Programmazione\\mingw64\\bin\\g++.exe"
+      }
+    ]
+  }
+  
